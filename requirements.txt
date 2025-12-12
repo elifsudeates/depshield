@@ -1,0 +1,20 @@
+# =============================================================================
+# DepShield - Python Dependencies
+# =============================================================================
+# Core dependencies for the vulnerability scanner application
+# Last updated: 2024
+# =============================================================================
+
+# Web Framework
+flask==3.0.0              # Main web application framework
+flask-cors==4.0.0         # Cross-Origin Resource Sharing support
+
+# HTTP Client
+requests==2.31.0          # HTTP requests for GitHub API and OSV API
+
+# Configuration Parsing
+toml==0.10.2              # TOML parser for pyproject.toml files
+python-dotenv==1.0.0      # Environment variable loader for .env files
+
+# Production Server (required for Docker deployment)
+gunicorn==21.2.0          # WSGI HTTP Server for UNIX

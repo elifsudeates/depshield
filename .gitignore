@@ -1,0 +1,186 @@
+# =============================================================================
+# DepShield - Git Ignore File
+# =============================================================================
+# Project-specific files and directories to exclude from version control
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# -----------------------------------------------------------------------------
+# Flask / Web Application
+# -----------------------------------------------------------------------------
+instance/
+.webassets-cache
+
+# -----------------------------------------------------------------------------
+# Environment Variables
+# -----------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+
+# -----------------------------------------------------------------------------
+# IDE / Editors
+# -----------------------------------------------------------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# -----------------------------------------------------------------------------
+# Operating System
+# -----------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# -----------------------------------------------------------------------------
+# Logs & Temporary Files
+# -----------------------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# -----------------------------------------------------------------------------
+# Export Files (Generated Reports)
+# -----------------------------------------------------------------------------
+# Scan result exports - uncomment if you want to ignore them
+# exports/
+# *_vulnerabilities.json
+# *_vulnerabilities.csv
+
+# -----------------------------------------------------------------------------
+# Docker (optional - if you want to track Dockerfile)
+# -----------------------------------------------------------------------------
+# Uncomment if you don't want Docker files in repo
+# Dockerfile
+# docker-compose*.yml
+# .dockerignore
+
+# -----------------------------------------------------------------------------
+# Misc
+# -----------------------------------------------------------------------------
+*.pid
+*.seed
+*.pid.lock
