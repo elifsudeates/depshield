@@ -101,16 +101,11 @@ Open your browser and navigate to `http://127.0.0.1:5000`
 
 ### Screenshots
 
-<details>
-<summary>Click to view screenshots</summary>
-
 #### Scanning in Progress
-The scanner shows real-time progress with the current package being checked.
+![Scanning in Progress](static/screenshots/scanning.png)
 
 #### Results Dashboard
-View all vulnerabilities organized by severity with CVE details.
-
-</details>
+![Results Dashboard](static/screenshots/result-dashboard.png)
 
 ---
 
